@@ -29,6 +29,6 @@ services:
       - email.env
   frontend:
     container_name: frontend
-    image: ghcr.io/alnikmakh/astro-portfolio:main
+    image: ghcr.io/alnikmakh/astro-blog:main
     env_file:
       - hosts.env
